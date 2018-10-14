@@ -12,7 +12,7 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <Header name="REACT" />
         </header>
-        <Description countBy={3} />
+        <Description countBy={3}/>
       </div>
     );
   }
