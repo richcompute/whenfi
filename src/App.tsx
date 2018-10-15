@@ -3,6 +3,8 @@ import './App.css';
 import Description from './Description';
 import Header from './Header';
 import logo from './logo.svg';
+import SavingRate from './SavingRate';
+
 
 class App extends React.Component {
   public render() {
@@ -13,6 +15,7 @@ class App extends React.Component {
           <Header name="REACT" />
         </header>
         <Description countBy={3}/>
+        <SavingRate postTaxIncome='10000' currentExpense='2000' /> 
       </div>
     );
   }
